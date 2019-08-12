@@ -15,7 +15,10 @@ router.get('/', (req, res) => {
             prods: products,
             pageTitle: 'Shop',
             path:'/admin/',
-            hasProducts: products.length > 0
+            hasProducts: products.length > 0,
+            activeShop: true,
+            productCSS: true,
+            // layout: false //Special key
         }
     );
     // console.log(adminData.products);
