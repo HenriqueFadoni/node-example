@@ -3,7 +3,7 @@ exports.get404 = (req, res, next) => {
         '404',
         {
             pageTitle: 'Page Not Found',
-            path: 'notfound'
+            path: '/404'
         }
     );
     // res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
